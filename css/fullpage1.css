@@ -1,0 +1,20 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+section {
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  height:100vh; 
+  color:#fff;
+  scroll-snap-align: start;
+}
+.one {background:rgb(36, 164, 138);}
+.two {background:rgb(211, 79, 79);}
+.three {background:rgb(67, 91, 175);}
+.four {background:lightsalmon;}
